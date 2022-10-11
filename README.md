@@ -7,6 +7,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Overview](#overview)
   - [Screenshot](#screenshot)
   - [Links](#links)
+- [Author](#author)
 
 ## Overview
 
@@ -19,3 +20,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - Solution URL: https://github.com/mstu26/QR-Code
 - Live Site URL: https://harmonious-dasik-88c066.netlify.app/
 
+## Author
+
+- Frontend Mentor - [@mstu26](https://www.frontendmentor.io/profile/mstu26)
