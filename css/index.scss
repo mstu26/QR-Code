@@ -1,0 +1,56 @@
+$app-white: hsl(0, 0%, 100%);
+$app-light-gray: hsl(212, 45%, 89%);
+$app-grayish-blue: hsl(220, 15%, 55%);
+$dark-blue: hsl(218, 44%, 22%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    background-color: $app-light-gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: $app-white;
+    width: 320px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.qr-box {
+    margin: 15px;
+    // background-color: brown;
+
+    & img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+
+}
+
+.title {
+    font-size: 1.4em;
+    padding: 5px 20px;
+    color: $dark-blue;
+    font-weight: 700;
+}
+
+.instruction {
+    padding: 15px 20px;
+    color: $app-grayish-blue;
+}
